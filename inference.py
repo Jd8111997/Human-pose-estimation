@@ -4,7 +4,6 @@ import requests
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches    
 import torch
-from skimage import io
 from PIL import Image
 import os
 import glob
