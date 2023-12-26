@@ -31,7 +31,7 @@ Human pose estimation is a computer vision problem involves detecting human body
   ```                      
 - Obtain YOLOv5:                                              
     - Clone [YOLOv5](git clone https://github.com/ultralytics/yolov5)
-into the ``./simple_HRNet/models_/detectors`` folder and change the folder name from ``yolov5`` to ``yolo``.                                
+into the ``./simple-HRNet/models_/detectors`` folder and change the folder name from ``yolov5`` to ``yolo``.                                
 - Download the official pre-trained weights for the model:                     
     - For COCO w48 384x288 (Default in inference.py):
       [pose_hrnet_w48_384x288.pth](https://drive.google.com/open?id=1UoJhTtjHNByZSm96W3yFTfU5upJnsKiS)                                     
