@@ -74,4 +74,20 @@ For Example:
     <img src="assets/tennis_viz.jpg" width="500"/><br/>
 </p>
 
+<p align="center">
+    <img src="assets/skiing_viz.jpg" width="500"/><br/>
+</p>
+
+<p align="center">
+    <img src="assets/CCTV_229_viz.jpg" width="500"/><br/>
+</p>
+
+<p align="center">
+    <img src="assets/CCTV_22_viz.jpg" width="500"/><br/>
+</p>
+
+<p align="center">
+    <img src="assets/CCTV_274_viz.jpg" width="500"/><br/>
+</p>
+
 
