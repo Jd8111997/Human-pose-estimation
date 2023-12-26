@@ -66,4 +66,12 @@ For Example:
 ```
 ## Visualization of model output
 
+<p align="center">
+    <img src="assets/baseball1_viz.jpg" width="500"/><br/>
+</p>
+
+<p align="center">
+    <img src="assets/tennis_viz.jpg" width="500"/><br/>
+</p>
+
 
