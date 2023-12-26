@@ -1,5 +1,15 @@
 # Human-pose-estimation
-Human pose estimation
+Human pose estimation is a computer vision problem involves detecting human body positions and their key points in images or videos. This repository hosts a pre-trained model([simple-HRNet model](https://github.com/stefanopini/simple-HRNet/)) that specializes in this task, enabling the detection of human poses within diverse scenarios.
+
+## Table of Contents
+
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Output](#output)
+4. [Visualization of Model Output](#visualization-of-model-output)
+5. [Limitations](#limitations)
+6. [Improvements](#improvements)
+7. [References](#references)
 
 ## Installation
 
