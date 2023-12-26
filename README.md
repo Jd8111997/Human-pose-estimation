@@ -4,13 +4,21 @@ Human pose estimation
 ## Installation
 
 - Clone the Repository:                                                
-  ``git clone https://github.com/Jd8111997/Human-pose-estimation``                    
+  ```bash 
+  git clone https://github.com/Jd8111997/Human-pose-estimation
+  ```                   
 - Navigate to the Simple-HRNet Subdirectory:                              
-  ``cd simple-HRNet``                     
+  ```bash
+  cd simple-HRNet
+  ```                     
 - Install Required Packages:  
-  ``pip install -r requirements.txt``                   
+  ```bash
+  pip install -r requirements.txt
+  ```                   
 - Install the Ultralytics package                                           
-  ``pip install ultralytics``                      
+  ```bash 
+  pip install ultralytics
+  ```                      
 - Obtain YOLOv5:                                              
     - Clone [YOLOv5](git clone https://github.com/ultralytics/yolov5)
 into the ``./models_/detectors`` folder and change the folder name from ``yolov5`` to ``yolo``.                                
@@ -20,7 +28,9 @@ into the ``./models_/detectors`` folder and change the folder name from ``yolov5
     - Create a new weights directory within the main repository and copy the downloaded pre-trained weights there.                              
 - Optional Uninstallation (For CPU-Only Machine):
   - Uninstall the `nvidia_cublas_cu11` package:                   
-  ``pip uninstall nvidia_cublas_cu11``   
+  ```bash 
+  pip uninstall nvidia_cublas_cu11
+  ```   
 
 ## Usage
 
@@ -37,7 +47,7 @@ python inference.py [-h] [--visualize] [--output_folder_name OUTPUT_FOLDER_NAME]
 
 ## Output
 
-Upon executing the `inference.py` script, it runs a human pose estimation model and returns a dictionary. This dictionary comprises:
+Upon executing the `inference.py` script, it runs a human pose estimation model and prints a dictionary containing model output at the end. This dictionary comprises:
 
 - **Key**: Represents the name of the input image.
 - **Value**: A nested dictionary containing:
@@ -54,3 +64,6 @@ For Example:
         ...
         [     561.75,      200.62,     0.88002]]], dtype=float32)}}
 ```
+## Visualization of model output
+
+
